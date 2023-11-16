@@ -11,7 +11,7 @@ public class HourContrat {
 
     }
 
-    HourContrat(Date date, Double valuePerHour, int hours) {
+    public HourContrat(Date date, Double valuePerHour, int hours) {
 
         this.date = date;
         this.valuePerHour = valuePerHour;
